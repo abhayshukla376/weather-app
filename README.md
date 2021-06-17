@@ -1,1 +1,2 @@
-# Weathor-app
+# Weathor-Web-app
+In this website, I created a website that tells you the weather of your location or you can search any other city name all over the world. On this website, I am using open weather API for fetching weather data like temperature and wind speed and description and image according to the description. For making this website I am using basic things like HTML, CSS, BOOTSTRAP, AND JAVASCRIPT.
