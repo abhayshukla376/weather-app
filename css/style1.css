@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Do Hyeon', sans-serif;
+}
+html,body{
+    height: 100%;
+}
+body{
+   
+
+    /* background: #F0F1F2; */
+    background: url(../img/background.jpg) no-repeat;
+    background-size:cover;
+    max-width: 100%;
+    height: auto;
+    /* background-position: center; */
+}
+
+.temprature h1{
+      
+    font-size:10vh;
+}
+.date-main .fas{
+    font-size: 4vh;
+    color: #0099FF;
+}
+
+
+.location-main .fas{
+    font-size: 6vh;
+    color: #0099FF;
+
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="img/images.jfif" />
+        <title>Weathor</title>
+        
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="css/bootstrap.css">
+        
+        <!-- Main css-->
+        <link rel="stylesheet" href="css/style1.css">
+        
+        <!--  FONTAWSOME -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" referrerpolicy="no-referrer" />
+        
+        <body>
+            <div class="search-box d-flex justify-content-center mt-2">
+               
+<div class="row">
+            <div class="col-lg-10 col-auto">
+                <input type="text" class="form-control" id="txt" placeholder="Search City">
+            </div>
+            <div class="col-lg-2 col-auto">
+                <button type="submit" class="btn btn-primary mb-3" onclick="fun1()">Search</button>
+            </div>
+        </div>
+    </div>
+    <div class="wbox">
+        <div class="main-box d-flex justify-content-center">
+            <div class="card bg-light shadow" style="min-width: 30vw; height:auto;">
+                <div class="card-header text-center"> <img src="img/weather.png" alt="Weathor Image" class="image-fluid"
+                    width="50px" height="50px">
+                    <h2 class="d-inline-block text-capitalize">weather</h2>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                    <path fill="#0099ff" fill-opacity="1"
+                    d="M0,32L40,48C80,64,160,96,240,144C320,192,400,256,480,234.7C560,213,640,107,720,96C800,85,880,171,960,202.7C1040,235,1120,213,1200,181.3C1280,149,1360,107,1400,85.3L1440,64L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z">
+                </path>
+            </svg>
+            <div class="card-body text-dark">
+                <div class="date-main text-dark text-center mb-3">
+                    <em class="fas fa-calendar-day"></em>
+                    <h3 class="d-inline"> <strong>Date : </strong> <span id="date"></span> </h3>
+                </div>
+                <div class="temprature bg-secondary">
+                    <h1 class="text-center text-light"><img src="" id="weathorimage" alt=""> 
+                       <span id="temp"></span><sup>o</sup> <span class="text-primary">C</span> </h1>
+                    </div>
+                    <div class="location-main text-dark text-center">
+                        <em class="fas fa-map-marker-alt"></em>
+                        <h1 class="d-inline"><strong id="location"></strong></h1>
+                    </div>
+                </div>
+                <div class="more-data text-center text-capitalize">
+                    <div class="discription">
+                        <h4 class="d-inline">Description : </h4><span id="description"></span>
+                    </div>
+                    <div class="wind">
+                        <h4 class="d-inline">Wind speed : </h4><span id="wind"> </span>m/sec
+                    </div>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                    <path fill="#0099ff" fill-opacity="1"
+                    d="M0,32L40,48C80,64,160,96,240,144C320,192,400,256,480,234.7C560,213,640,107,720,96C800,85,880,171,960,202.7C1040,235,1120,213,1200,181.3C1280,149,1360,107,1400,85.3L1440,64L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z">
+                </path>
+            </svg>
+            <div class="card-footer" style="min-height: 2rem;">
+                
+            </div>
+        </div>
+    </div>
+</div>
+<div class="card-footer text-center bg-light mt-3">
+           <h3 class="mt-2">This weather web application is created by ABHAY KUMAR SHUKLA</h3>     
+</div>
+<script src="js/bootstrap.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
